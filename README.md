@@ -5,11 +5,11 @@ Project developed during the 2nd edition of the Semana DevSuperior event. It con
 ## Installation
 
 ```bash
-npm install
+yarn install
 ```
 
 ## Running the app
 
 ```bash
-npm run start
+yarn start
 ```
