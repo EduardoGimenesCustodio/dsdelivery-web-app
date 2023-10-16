@@ -62,7 +62,9 @@ function Orders() {
     <>
       <div className="orders-container">
         <StepsHeader />
-        {isLoadingProducts ? <p>Carregando produtos...</p> : null}
+        {isLoadingProducts ? (
+          <p className="loading-text">Carregando produtos...</p>
+        ) : null}
         <ProductsList
           products={products}
           onSelectProduct={handleSelectProduct}
